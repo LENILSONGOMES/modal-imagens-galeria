@@ -1,0 +1,66 @@
+.card-default img{
+    width: 100%;
+    height: 206px;
+}
+
+.miniImage{
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+.miniImage:hover{
+    opacity: 0.3;
+}
+
+.card-default:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-default{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+
+.modal-default {
+  transition: transform 1s ease-out !important;
+  transform: translate(0, -50px);
+  max-width: 580px !important;
+}
+
+.btn-close{
+    background-color: #ffbc00 !important;
+    opacity: 0.8 !important;
+    border-radius: 90%;
+    padding: 0.7rem;
+}
+
+.btn-close:hover{
+    background-color: #fadb88 !important;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-close:focus {
+    box-shadow: 0 0 0 0rem !important;
+}
+
+/*mobile devices*/
+@media(max-width: 576px){
+    .card-default img{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 400px;
+    }
+}
+
+@media(max-width: 768px){
+    .card-default img{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 410px;
+    }
+
+}
